@@ -1,0 +1,151 @@
+*{
+    font-family: "cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+   width: 100vw;
+   background-image:url(pg.jpg);
+position: fixed;
+padding-top: 0;
+padding-left: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   }
+   a{
+    text-decoration: none;
+    color: inherit;
+   }
+   ul{
+    list-style-type: none;
+   }
+   header{
+    display: flex;
+    font: roboto;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+   }
+   header h1 {
+    color: #ff7200;
+   }
+   header ul{
+    display: flex;
+    justify-content:space-between ;
+    width: 450px;
+   }
+   header ul li{
+    color:white;
+    font-weight: bold;
+   }
+   header ul li:hover{
+    color: #ff7200;
+    font-weight: bold;
+    transition-duration: 0.4s;
+   }
+   header div{
+    display: flex;
+   }
+   header input{
+    border-color:transparent;
+border: 1px solid #ff7200;
+   }
+   header div input{
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    padding-left: 6px;
+   }
+   header div input::placeholder{
+color:rgb(206, 204,204);
+   }
+   header div button{
+    background-color: #ff7200;
+    color:white;
+    border: none;
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+   }
+   header div button{
+      margin-right: 5px;
+   }
+    section{
+      display: flex;
+      height: 80vh;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+   }
+   section  div {
+      display: flex;
+      height: 80vh;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+
+   } 
+    section .about{
+      width: 50px;
+
+   }
+   section .about h1{
+      font-size: 3rem;
+      line-height: 90%;
+   }
+   section .about h1 span{
+      color:black;
+   }
+   section .about .content {
+      color: white;
+      margin-top: 10px;
+      width: 80%;
+}
+section .about.content button{
+   background-color: #ff7200;
+   border-radius: 8px;
+   color: white;
+   text-align: center;
+   width: 300px;
+   padding: 20px 40px ;
+}
+section .signin {
+   width: 200px;
+   background-color: black;
+   border-radius: 8px;
+   color: white;
+   text-align: center;
+   padding: 20px 40px;
+} section .signin h3{
+   color: white;
+   background-color: #ff7200;
+   width: 80%;
+   margin:0 auto;
+   border-radius: 8px;
+}
+section.signin .inputs{
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   padding: 20px 40px;
+}
+section .signin .button{
+   background-color: #ff7200;
+   color: white;
+   padding-left: 6px;
+   padding-right: 6px;
+   padding-bottom:6px ;
+   padding-top: 6px;
+   align-items: center;
+}
+footer p{
+   color: black;
+   text-align: center;
+}
+
+
